@@ -48,7 +48,6 @@ jobs:
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
       - name: Build and Publish Shared Library - ziti-console-lib
-        if: github.repository_owner == 'rgallettonf'
         run: ./publishSharedLib.sh
 
       - name: Publish production release
