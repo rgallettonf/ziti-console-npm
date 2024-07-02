@@ -47,10 +47,17 @@ jobs:
           VERSION=$(echo "${{ github.event.release.name }}" | grep -oP '^.*-v(.*)$')
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
+      - name: Test branch name
+        run: |
+          echo "echo ${GITHUB_REF#refs/heads/}"
+        id: extract_branch
+
       - name: Build and Publish Shared Library - ziti-console-lib
+        if: true
         run: ./publishSharedLib.sh
 
       - name: Publish production release
+        if: true
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
