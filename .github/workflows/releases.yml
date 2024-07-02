@@ -50,3 +50,17 @@ jobs:
       - name: Build and Publish Shared Library - ziti-console-lib
         if: github.repository_owner == 'openziti'
         run: ./publishSharedLib.sh
+
+      - name: Setup .npmrc
+        if: github.ref_type == 'tag'
+        # Setup .npmrc file to prepare for possible publish to npm
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Publish production release
+          if: (github.ref == 'refs/heads/main' && github.actor != 'dependabot[bot]') # do not publish if only doing a dep update initiated by dependabot
+          run: npm publish --access public
+          env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
