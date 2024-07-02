@@ -48,11 +48,10 @@ jobs:
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
       - name: Build and Publish Shared Library - ziti-console-lib
-        if: github.repository_owner == 'openziti'
+        if: github.repository_owner == 'rgallettonf'
         run: ./publishSharedLib.sh
 
       - name: Publish production release
-        if: (github.ref == 'refs/heads/main' && github.actor != 'dependabot[bot]') # do not publish if only doing a dep update initiated by dependabot
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
