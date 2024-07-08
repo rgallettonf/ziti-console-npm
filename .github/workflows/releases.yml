@@ -52,12 +52,10 @@ jobs:
           echo "echo ${GITHUB_REF#refs/heads/}"
         id: extract_branch
 
-      - name: Build and Publish Shared Library - ziti-console-lib
-        if: true
-        run: ./publishSharedLib.sh
-
       - name: Publish production release
         if: true
-        run: npm publish --access public
+        run: |
+          cd dist/ziti-console-lib
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
