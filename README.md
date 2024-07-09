@@ -22,7 +22,7 @@ Please star us.
     <a>@openziti/ziti-console</a>
     <br>
     <br>
-    <b>
+    </b>
     This repo hosts the Ziti Admin Console, and is designed to provide a user interface to help you administrate an <a href="https://openziti.io">OpenZiti Network</a> via the <a href="https://openziti.io/docs/reference/developer/api/">Ziti Edge API</a>
     <br>
     <br>
@@ -31,7 +31,7 @@ Please star us.
 
 <p align="center">
     <br>
-    <b>Are you interested in knowing how to easily embed programmable, high performance, zero trust networking into your application without VPNs?
+    <b>Are you interested in knowing how to easily embed programmable, high performance, zero trust networking into your application without VPNs?</b>
     <br>
     Learn more about our <a href="https://openziti.io/about">OpenZiti</a> project.</b>
     <br>
