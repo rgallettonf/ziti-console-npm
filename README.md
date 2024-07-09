@@ -1,4 +1,4 @@
-![Ziggy using the ziti-sdk-nodejs](https://raw.githubusercontent.com/openziti/branding/main/images/banners/Node.jpg)
+![Ziggy using the ziti-console](https://raw.githubusercontent.com/openziti/ziti-console-npm/projects/ziti-console-lib/assets/banners/ZAC.jpg)
 
 <p align="center" width="100%">
 OpenZiti is a free and open source project focused on bringing zero trust to any application.
@@ -38,11 +38,8 @@ Please star us.
     </p>
 
 ---
-[![Build Status](https://github.com/openziti/ziti-console/workflows/Build/badge.svg?branch=main)]()
 [![Issues](https://img.shields.io/github/issues-raw/openziti/ziti-console)]()
-[![npm version](https://badge.fury.io/js/@openziti%2Fziti-console.svg)](https://badge.fury.io/js/@openziti%2Fziti-sdk-nodejs.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![LOC](https://img.shields.io/tokei/lines/github/openziti/ziti-console)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=rounded)](CONTRIBUTING.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
