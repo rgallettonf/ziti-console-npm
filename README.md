@@ -14,7 +14,7 @@ Please star us.
 </p>
 
 <p align="center" width="100%">
-<a href="https://openziti.io"><img src="ziti.png" width="100"></a>
+<a href="https://openziti.io"><img src="https://github.com/rgallettonf/ziti-console-npm/blob/main/projects/ziti-console-lib/src/lib/assets/icons/android-icon-192x192.png?raw=true" width="100"></a>
 </p>
 
 <p align="center">
