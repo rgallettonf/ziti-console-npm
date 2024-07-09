@@ -1,4 +1,4 @@
-![Ziggy using the ziti-console](https://raw.githubusercontent.com/rgallettonf/ziti-console-npm/projects/ziti-console-lib/src/lib/assets/banners/ZAC.jpg)
+![Ziggy using the ziti-console](https://raw.githubusercontent.com/rgallettonf/ziti-console-npm/main/projects/ziti-console-lib/src/lib/assets/banners/ZAC.jpg)
 
 <p align="center" width="100%">
 OpenZiti is a free and open source project focused on bringing zero trust to any application.
