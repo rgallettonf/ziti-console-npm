@@ -6,10 +6,6 @@ OpenZiti is a free and open source project focused on bringing zero trust to any
 The project provides all the pieces required to implement or integrate zero trust into your solutions.
 <br/>
 <br/>
-Please star us.
-<br/>
-<a href="https://github.com/openziti/ziti/stargazers"><img src="https://img.shields.io/github/stars/openziti/ziti?style=flat" ></a>
-<br/>
      <br>
 </p>
 
@@ -31,10 +27,16 @@ Please star us.
 
 <p align="center">
     <br>
-    <b>Are you interested in knowing how to easily embed programmable, high performance, zero trust networking into your application without VPNs?</b>
+    <b>Interested in knowing how to easily embed programmable, high performance, zero trust networking into your application without VPNs?</b>
     <br>
-    Learn more about our <a href="https://openziti.io/about">OpenZiti</a> project.</b>
+    Learn more about <a href="https://openziti.io/about">OpenZiti</a> project.</b>
     <br>
+    Also, checkout core project on <a href="https://github.com/openziti">github</a>
+<br/>
+<br/>
+Please star us!
+<br/>
+<a href="https://github.com/openziti/ziti/stargazers"><img src="https://img.shields.io/github/stars/openziti/ziti?style=flat" ></a>
     </p>
 
 ---
